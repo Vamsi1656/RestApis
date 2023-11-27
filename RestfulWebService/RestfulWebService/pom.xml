@@ -29,6 +29,13 @@
 			<version>1.18.30</version>
 			<scope>provided</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-jpa</artifactId>
+    <version>3.2.0</version>
+</dependency>
+
 
 		<!-- Swagger dependancy -->
 		<dependency>
@@ -55,13 +62,7 @@
 			<artifactId>mysql-connector-j</artifactId>
 			</dependency>
 
-		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>SpringData-1</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-	</dependencies>
-
+		</dependencies>
 	<build>
 		<plugins>
 			<plugin>
